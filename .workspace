@@ -1,0 +1,446 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "hash": "513b63e077b0fb25447f10b9a143bedf"
+    },
+    {
+      "path": ".vscode/react-component.code-snippets",
+      "hash": "b200702aa5072e77916353f18ed7a24e"
+    },
+    {
+      "path": "app.code-workspace",
+      "hash": "4fd094930f9154ff6aabb46dc6a20e6a"
+    },
+    {
+      "path": "build.js",
+      "hash": "b04ab6b49dd30d2dadbe6c882467e539"
+    },
+    {
+      "path": "deploy.js",
+      "hash": "62cd9ccbb31f5310792c4292045c3227"
+    },
+    {
+      "path": "package.json",
+      "hash": "254c6c295b25837437f15664a618445a"
+    },
+    {
+      "path": "setup.js",
+      "hash": "1cb8c697e024f312dd5bb8e6167e053b"
+    },
+    {
+      "path": "shared-web/eslint.config.js",
+      "hash": "00ddf5cb90ec43f96cd0555513443acf"
+    },
+    {
+      "path": "shared-web/package.json",
+      "hash": "2985bc0717fe6b0f975628c7f1d8f4d9"
+    },
+    {
+      "path": "shared-web/src/components/core/autocomplete.tsx",
+      "hash": "49f7ff74e4858cf2e8e579fac483fb90"
+    },
+    {
+      "path": "shared-web/src/components/core/button.tsx",
+      "hash": "1181cea84266e0e6609b086be81a369e"
+    },
+    {
+      "path": "shared-web/src/components/core/calendar.tsx",
+      "hash": "9018310e976d6ad74ca866cf6e79b700"
+    },
+    {
+      "path": "shared-web/src/components/core/checkbox.tsx",
+      "hash": "b29bd6bf20259385b60c435449366d75"
+    },
+    {
+      "path": "shared-web/src/components/core/css_reset.tsx",
+      "hash": "9433306bf07cf92fd3b22a820b737467"
+    },
+    {
+      "path": "shared-web/src/components/core/date_input.tsx",
+      "hash": "70aaaf4a84039b24a1f8beeb4cd97b44"
+    },
+    {
+      "path": "shared-web/src/components/core/editable_input.tsx",
+      "hash": "e5e1372a0ebdb0d2685b4e832c00464f"
+    },
+    {
+      "path": "shared-web/src/components/core/error_boundary.tsx",
+      "hash": "e85dac94d1d5d7971c60b8b777a4443a"
+    },
+    {
+      "path": "shared-web/src/components/core/global_styles.tsx",
+      "hash": "1aae734b5bd73f02334b5607616cecc0"
+    },
+    {
+      "path": "shared-web/src/components/core/input.tsx",
+      "hash": "8eb6a4ffd5fc6c7522985ef159f42d34"
+    },
+    {
+      "path": "shared-web/src/components/core/label.tsx",
+      "hash": "63b817911c50689ed1e3bc06661ecc08"
+    },
+    {
+      "path": "shared-web/src/components/core/loading_indicator.tsx",
+      "hash": "26b0add701be68a9e7c6560398fbd17b"
+    },
+    {
+      "path": "shared-web/src/components/core/modal.tsx",
+      "hash": "82c7a511df2010552b618da0d7cf259f"
+    },
+    {
+      "path": "shared-web/src/components/core/notifications.tsx",
+      "hash": "a04b28524bb16e14adb16fa467adb4f4"
+    },
+    {
+      "path": "shared-web/src/components/core/overlay.tsx",
+      "hash": "07f50aee4096f129d4fcfd8d2db5f1bf"
+    },
+    {
+      "path": "shared-web/src/components/core/radio.tsx",
+      "hash": "25552c7d9a046045dca24027b8eeafb7"
+    },
+    {
+      "path": "shared-web/src/components/core/radios.tsx",
+      "hash": "00248ac4997b68c803820bc7d4541638"
+    },
+    {
+      "path": "shared-web/src/components/core/spacing.tsx",
+      "hash": "ba5aa7a55482cf45137bbdf0b5d328a8"
+    },
+    {
+      "path": "shared-web/src/components/core/svg_icon.tsx",
+      "hash": "f0bd5f39eba9909fef690f768bd89ab5"
+    },
+    {
+      "path": "shared-web/src/components/core/textarea.tsx",
+      "hash": "e2ac8c0461efe578d8a731a143ada436"
+    },
+    {
+      "path": "shared-web/src/components/core/time_picker.tsx",
+      "hash": "78c3bba32bd0e02bd4e8434691764626"
+    },
+    {
+      "path": "shared-web/src/components/icons/check_icon.tsx",
+      "hash": "c1c86b962c7f21798c4891f8844a3dde"
+    },
+    {
+      "path": "shared-web/src/components/icons/chevron_down_icon.tsx",
+      "hash": "ddb363d29cedb4826f1e988eb1fb338c"
+    },
+    {
+      "path": "shared-web/src/components/icons/chevron_left_icon.tsx",
+      "hash": "7200f4fc65bbc39bbcf6bc0611baa175"
+    },
+    {
+      "path": "shared-web/src/components/icons/chevron_right_icon.tsx",
+      "hash": "e8e8539352ab983f8f9ec4d5ea1b9646"
+    },
+    {
+      "path": "shared-web/src/components/icons/chevron_up_icon.tsx",
+      "hash": "a2c5b893208e302e43c1e2e60e034f5e"
+    },
+    {
+      "path": "shared-web/src/components/icons/cross_icon.tsx",
+      "hash": "9d1dee46cfba481b302f8f5bf999f6cf"
+    },
+    {
+      "path": "shared-web/src/components/icons/download_icon.tsx",
+      "hash": "1960c60c33a29131b7919c7930932a69"
+    },
+    {
+      "path": "shared-web/src/components/icons/external_link_icon.tsx",
+      "hash": "06dd154943be053feb8c3cfd123a21ec"
+    },
+    {
+      "path": "shared-web/src/components/icons/home_icon.tsx",
+      "hash": "eb4a0a5e9993519ae37c57c3f98e2255"
+    },
+    {
+      "path": "shared-web/src/components/icons/info_icon.tsx",
+      "hash": "899aa4ba7c74696abf410909e1457b25"
+    },
+    {
+      "path": "shared-web/src/components/icons/link_icon.tsx",
+      "hash": "acd8d679a43ba6f5f01b5c286a688278"
+    },
+    {
+      "path": "shared-web/src/components/icons/location_pin_icon.tsx",
+      "hash": "3a75ea5fc1a4300ee2d7a1f5f228ae22"
+    },
+    {
+      "path": "shared-web/src/components/icons/lock_icon.tsx",
+      "hash": "e885c59c02fcaac37094cb94a17b2c6e"
+    },
+    {
+      "path": "shared-web/src/components/icons/logout_icon.tsx",
+      "hash": "189a0b94578e561a6d47a38c6f04623f"
+    },
+    {
+      "path": "shared-web/src/components/icons/minus_icon.tsx",
+      "hash": "cabe84f4033f7934eedf634ba5152e86"
+    },
+    {
+      "path": "shared-web/src/components/icons/plus_icon.tsx",
+      "hash": "61ec20bb5be745d3e493276257d93f92"
+    },
+    {
+      "path": "shared-web/src/components/icons/refresh_icon.tsx",
+      "hash": "15f0eaa22233944e2d8933df73798077"
+    },
+    {
+      "path": "shared-web/src/components/icons/square_icon.tsx",
+      "hash": "e07479d20a66dad24dcef8e5828dd319"
+    },
+    {
+      "path": "shared-web/src/components/icons/swap_icon.tsx",
+      "hash": "aca734ef59604382aa25d2b065a4a073"
+    },
+    {
+      "path": "shared-web/src/components/icons/trash_icon.tsx",
+      "hash": "922ff5a40d602887ea37918122219788"
+    },
+    {
+      "path": "shared-web/src/components/icons/triangle_down.tsx",
+      "hash": "ec22fe461634204a6733133889b05d47"
+    },
+    {
+      "path": "shared-web/src/example.test.tsx",
+      "hash": "566fd9788e15c0098ef1120a94c56d87"
+    },
+    {
+      "path": "shared-web/src/lib/data_store.tsx",
+      "hash": "fcc71fa6a9ba8bd0de31f54c4aff3cd2"
+    },
+    {
+      "path": "shared-web/src/lib/debounce.tsx",
+      "hash": "4099b3fd6c532eb6c3ee92486e54bcd4"
+    },
+    {
+      "path": "shared-web/src/lib/map_data_store.tsx",
+      "hash": "ae5ee226a80dd9b1b9c88aae2fdbb169"
+    },
+    {
+      "path": "shared-web/src/lib/notification.tsx",
+      "hash": "4b974dbed3de8694d0255ad6e78ef649"
+    },
+    {
+      "path": "shared-web/src/lib/react.tsx",
+      "hash": "18b2954709e90c835acce67ff4b7ce84"
+    },
+    {
+      "path": "shared-web/src/lib/styled_utils.tsx",
+      "hash": "d68065c3f10fbd20429aeeb70481269a"
+    },
+    {
+      "path": "shared-web/src/lib/time_utils.tsx",
+      "hash": "87a9a404dd23eac723177b8d1813991e"
+    },
+    {
+      "path": "shared-web/src/lib/transitions.tsx",
+      "hash": "5d5efbaf29d0f2e056d60b28875812a7"
+    },
+    {
+      "path": "shared-web/src/lib/use_click_outside.tsx",
+      "hash": "a4b78d3aafb125fa5cecae1a7d01d316"
+    },
+    {
+      "path": "shared-web/src/lib/use_geoloc.tsx",
+      "hash": "adb9630026161d0707e676aca4e0f85b"
+    },
+    {
+      "path": "shared-web/src/lib/use_global_key_press.tsx",
+      "hash": "e6914493274d9335e5fb0c7282aee87d"
+    },
+    {
+      "path": "shared-web/src/lib/use_is_mounted.ts",
+      "hash": "4b28f259274c532c677bb3cd9f6814bb"
+    },
+    {
+      "path": "shared-web/src/lib/use_previous.tsx",
+      "hash": "0c5616536f2518b8a2f7ca5708b61b55"
+    },
+    {
+      "path": "shared-web/src/lib/use_query_string.tsx",
+      "hash": "0625bfba68143e5543b469e176c38029"
+    },
+    {
+      "path": "shared-web/src/lib/use_state_ref.tsx",
+      "hash": "43f15e88d5a0e9e6a2a3d28ffb859a18"
+    },
+    {
+      "path": "shared-web/src/theme/colors.tsx",
+      "hash": "88ed8fb59f02eead5716482b2c07af33"
+    },
+    {
+      "path": "shared-web/src/theme/theme_base.tsx",
+      "hash": "f8f44bdea8a28bf498d5da158f6e0b20"
+    },
+    {
+      "path": "shared-web/src/theme/theme_context.tsx",
+      "hash": "6e2c730a0adfaf9b91e15350fffd9041"
+    },
+    {
+      "path": "shared-web/src/theme/theme_model.ts",
+      "hash": "79bc9153da24493b8a1b2d1788679740"
+    },
+    {
+      "path": "shared-web/src/theme/theme_utils.tsx",
+      "hash": "0c48fe4e861759ac63c9e90b9bb90fff"
+    },
+    {
+      "path": "shared-web/tsconfig.json",
+      "hash": "c4be4ab1898db3bdbf77d69924955ec7"
+    },
+    {
+      "path": "shared-web/webpack.config.js",
+      "hash": "1ef943c6da92b4ba955e02f073c41aa5"
+    },
+    {
+      "path": "shared/eslint.config.js",
+      "hash": "cab4b9356fceb4177af1249a300dcb12"
+    },
+    {
+      "path": "shared/package.json",
+      "hash": "3408c77255344ed1144b9478fa906996"
+    },
+    {
+      "path": "shared/src/lib/array_utils.ts",
+      "hash": "6eaab2a2daa5975a89207cc7a1b3df79"
+    },
+    {
+      "path": "shared/src/lib/date_utils.ts",
+      "hash": "5c6c56edf89fee6a8983ace3ebbb2deb"
+    },
+    {
+      "path": "shared/src/lib/format_utils.ts",
+      "hash": "0a6142e648d09da5e401c0a4fc821852"
+    },
+    {
+      "path": "shared/src/lib/map_utils.ts",
+      "hash": "21853f329ceda4ebb076e61136e489a9"
+    },
+    {
+      "path": "shared/src/lib/math_utils.ts",
+      "hash": "37bac17405e76465a30f6024a895520f"
+    },
+    {
+      "path": "shared/src/lib/object_utils.ts",
+      "hash": "7678107e747ebc0174dce6ff4ce8b523"
+    },
+    {
+      "path": "shared/src/lib/random_utils.ts",
+      "hash": "5998948110c00c23656f8277a560ab5f"
+    },
+    {
+      "path": "shared/src/lib/string_utils.ts",
+      "hash": "cb02fbf9be96876efecd5c3f45362b18"
+    },
+    {
+      "path": "shared/src/lib/time_format.ts",
+      "hash": "f8a41fb9478292a3fa5a43c0140acabb"
+    },
+    {
+      "path": "shared/src/lib/tuple_utils.ts",
+      "hash": "aea44d044e726ab9b4d4a7c985a57eff"
+    },
+    {
+      "path": "shared/src/lib/type_utils.ts",
+      "hash": "6f9db10597d40d4dea275bca4ecba8b7"
+    },
+    {
+      "path": "shared/tsconfig.json",
+      "hash": "7825699b546b2afbecd6dec3b1bd227b"
+    },
+    {
+      "path": "shared/webpack.config.js",
+      "hash": "1ef943c6da92b4ba955e02f073c41aa5"
+    },
+    {
+      "path": "terraform/base.tf",
+      "hash": "9aabbbadefe22a8a401e2d5b57d6b5e3"
+    },
+    {
+      "path": "terraform/website_terraform.tf",
+      "hash": "b237eaaf685b56b573e8e66fa64ac5ed"
+    },
+    {
+      "path": "website/eslint.config.js",
+      "hash": "00ddf5cb90ec43f96cd0555513443acf"
+    },
+    {
+      "path": "website/package.json",
+      "hash": "95a88387dff84a15bdc6c5acd100aa06"
+    },
+    {
+      "path": "website/src/components/app.tsx",
+      "hash": "81131639228060ad41a17879a41921fd"
+    },
+    {
+      "path": "website/src/components/home_page.tsx",
+      "hash": "cec87dd8338c10ef6f1d522eb1312646"
+    },
+    {
+      "path": "website/src/components/nav_bar.tsx",
+      "hash": "e479c0e27c8845685ceabfcc8cfa2bf3"
+    },
+    {
+      "path": "website/src/components/theme_page.tsx",
+      "hash": "e40eba2a624e2fea4fa189121ff27679"
+    },
+    {
+      "path": "website/src/components/tile.tsx",
+      "hash": "a191e60f9ff28b58b239d7e7baa0eada"
+    },
+    {
+      "path": "website/src/example.test.tsx",
+      "hash": "566fd9788e15c0098ef1120a94c56d87"
+    },
+    {
+      "path": "website/src/favicon.json",
+      "hash": "815c8affb6c451e0cb8a1801120388e3"
+    },
+    {
+      "path": "website/src/favicon.svg",
+      "hash": "3125420e6dfbea292746bf0354369a46"
+    },
+    {
+      "path": "website/src/index.html",
+      "hash": "5c3f514bb69de962295800a180128d79"
+    },
+    {
+      "path": "website/src/index.tsx",
+      "hash": "765e3ce9a70b3a9cbdf8b38a483b9b08"
+    },
+    {
+      "path": "website/src/theme.tsx",
+      "hash": "57dc5d0cb30d4aa2f6a72825c9eb2983"
+    },
+    {
+      "path": "website/src/typings/images.d.ts",
+      "hash": "5c5e56b451a920272c45d77a2d0ee8dc"
+    },
+    {
+      "path": "website/tsconfig.json",
+      "hash": "0b9ce6c6a7512c7038649de799e64d68"
+    },
+    {
+      "path": "website/webpack.config.js",
+      "hash": "d2f6fec950afced239ccdebb5400054f"
+    }
+  ],
+  "fragments": [
+    {
+      "type": "static-website",
+      "websiteName": "website",
+      "domain": "molkky.matthis.link"
+    },
+    {
+      "type": "shared"
+    },
+    {
+      "type": "shared-web"
+    }
+  ],
+  "version": "1.11.33"
+}

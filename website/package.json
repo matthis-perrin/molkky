@@ -1,0 +1,13 @@
+{
+  "name": "website",
+  "license": "UNLICENSED",
+  "type": "module",
+  "prettier": "@matthis/prettier-config",
+  "scripts": {
+    "test": "node --import tsx --test **/*.test.tsx"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "emoji-picker-react": "4.12.x"
+  }
+}
