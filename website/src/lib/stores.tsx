@@ -21,24 +21,32 @@ const gameDataStore = createPersistentDataStore<Game[]>('games', []);
 export const getGames = gameDataStore.getData;
 export const setGames = gameDataStore.setData;
 export const setGame = (game: Game): void => {
-  setGames(getGames().map(g => (g.id === game.id ? {...game} : g)));
+  setGames(
+    getGames().map(g => {
+      if (g.currentPlayerId === 0) {
+        g.currentPlayerId = g.players[0]?.id ?? 0;
+      }
+      return g.id === game.id ? {...game} : g;
+    })
+  );
 };
 export const useGames = gameDataStore.useData;
 
 export const createNewGame = (players: Player[]): Game => {
   // eslint-disable-next-line @typescript-eslint/no-magic-numbers
   const gameId = Math.round(Math.random() * 1000000);
+  const playerData = players.map(({name, failDesign}) => ({
+    // eslint-disable-next-line @typescript-eslint/no-magic-numbers
+    id: Math.round(Math.random() * 1000000),
+    name,
+    fail: 0,
+    score: 0,
+    failDesign,
+  }));
   const newGame: Game = {
     id: gameId,
     creationTime: Date.now(),
-    players: players.map(({name, failDesign}) => ({
-      // eslint-disable-next-line @typescript-eslint/no-magic-numbers
-      id: Math.round(Math.random() * 1000000),
-      name,
-      fail: 0,
-      score: 0,
-      failDesign,
-    })),
+    players: playerData,
     currentPlayerId: 0,
     lastGame: undefined,
     lastPlay: 'La partie commence!',
@@ -70,6 +78,9 @@ export const addPlayer = (game: Game): void => {
 
 export const delPlayer = (game: Game, player: Player): void => {
   game.players = game.players.filter(p => p.id !== player.id);
+  if (game.currentPlayerId === player.id) {
+    game.currentPlayerId = game.players.at(-1)?.id ?? 0;
+  }
   setGame(game);
 };
 
@@ -156,19 +167,8 @@ const updatePlayerInGame = (
 };
 
 const getNextPlayerId = (game: Game): number => {
-  for (let index = 0; index < game.players.length; index++) {
-    const p = game.players[index];
-    if (!p) {
-      return -1;
-    }
-    if (p.id === game.currentPlayerId) {
-      if (index === game.players.length - 1) {
-        return game.players[0]?.id ?? -1;
-      }
-      return game.players[index + 1]?.id ?? -1;
-    }
-  }
-  return -1;
+  const currentPlayerIndex = game.players.findIndex(p => p.id === game.currentPlayerId);
+  return game.players[(currentPlayerIndex + 1) % game.players.length]?.id ?? 0;
 };
 
 export const isDone = (game: Game): boolean => {

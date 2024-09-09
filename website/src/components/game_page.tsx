@@ -38,7 +38,10 @@ export const GamePage: FC = () => {
     }
     loadingPreviousPlay(game);
   }, [game]);
-  const handleRematchPress = useCallback(() => createNewGame(game?.players ?? []), [game?.players]);
+  const handleRematchPress = useCallback(() => {
+    const newGame = createNewGame(game?.players ?? []);
+    setLocation(`/edit/${newGame.id}`);
+  }, [game?.players, setLocation]);
 
   if (game === undefined) {
     return <></>;

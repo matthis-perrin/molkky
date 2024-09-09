@@ -56,10 +56,7 @@ export const EditPage: FC = () => {
     if (game === undefined) {
       return;
     }
-    if (game.currentPlayerId === 0 && game.players[0]) {
-      game.currentPlayerId = game.players[0].id;
-      setGame(game);
-    }
+    setGame(game);
     setLocation(`/play/${game.id}`);
   }, [game, setLocation]);
 

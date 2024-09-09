@@ -11,7 +11,7 @@ import {plusIcon} from '@shared-web/components/icons/plus_icon';
 import {CustomButton} from '@src/components/custom_buttons';
 import {PlayerForm} from '@src/components/player_form';
 import {TopBar} from '@src/components/top_bar';
-import {addPlayer, Player, useGames} from '@src/lib/stores';
+import {addPlayer, Player, setGame, useGames} from '@src/lib/stores';
 import {
   fontSizes,
   pastilleBackgroundColor,
@@ -98,8 +98,25 @@ export const RandomTeamsPage: FC<RandomTeamsProps> = () => {
     if (game === undefined) {
       return;
     }
-    setLocation(`/edit/${gameId}`);
-  }, [game, gameId, setLocation]);
+
+    game.players = teams.map((team, i) => {
+      const current = game.players[i] as Player | undefined;
+      const teamName = team.length === 0 ? `Équipe ${i + 1}` : team.map(p => p.name).join(' + ');
+      return {
+        id: game.id,
+        fail: 0,
+        score: 0,
+        ...current,
+        ...{
+          name: teamName,
+          failDesign: '💣',
+        },
+      };
+    });
+    setGame(game);
+
+    setLocation(`/play/${gameId}`);
+  }, [game, gameId, setLocation, teams]);
 
   if (!game) {
     return <></>;
@@ -118,7 +135,7 @@ export const RandomTeamsPage: FC<RandomTeamsProps> = () => {
           />
         }
         middle={<Titre>{`Équipes`}</Titre>}
-        right={<CustomButton text="Valider" onClick={handleConfirm} width={topBarButtonWidth} />}
+        right={<CustomButton text="Jouer" onClick={handleConfirm} width={topBarButtonWidth} />}
       />
       <StyledScrollView>
         <TeamCountWrapper key="team-count">
