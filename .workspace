@@ -22,7 +22,7 @@
     },
     {
       "path": "package.json",
-      "hash": "254c6c295b25837437f15664a618445a"
+      "hash": "a977495c677ef8451b5c9f6d19083eb6"
     },
     {
       "path": "setup.js",
@@ -442,5 +442,5 @@
       "type": "shared-web"
     }
   ],
-  "version": "1.11.33"
+  "version": "1.11.37"
 }

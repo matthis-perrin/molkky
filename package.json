@@ -19,7 +19,7 @@
     "@matthis/tsconfig-lib": "1.7.4",
     "@matthis/tsconfig-web": "1.7.4",
     "@matthis/webpack-lib": "1.7.6",
-    "@matthis/webpack-runner": "1.5.29",
+    "@matthis/webpack-runner": "1.5.30",
     "@matthis/webpack-web": "1.7.6",
     "typescript": "5.5.x"
   }
